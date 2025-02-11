@@ -19,7 +19,7 @@ const bigNumber =34566643982n //n lgya to big int bn jaye ga
 
 //Reference Type(Non Primitive)
 
-//Array ,Objects,Functions non primitive ka datatype function aur function ka function object
+//Array ,Objects,Functions non primitive ka datatype function aur function ka function objectjk
 const heros =["Shaktiman","Spiderman","Superman"]
 let myObj =
 {name:"Hammad",
@@ -28,3 +28,30 @@ let myObj =
 const myFunction = function(){
     console.log("Hello World")
 }
+
+
+
+//++++++++++++++++Memory in JS
+//Stack(Primitive), Heap(Non-Primitive)
+
+let myYoutubename ="hiteshchoudary.com"
+
+let anothername =myYoutubename
+anothername ="Chaiaurcode"
+console.log(myYoutubename)
+console.log(anothername)
+//another name ko myYoutubechannel ki coppy di gyi thi ,asal nai dia gaya tha stack mn coppy milti hai heap mn value
+let userOne={
+    email:"User@google.com",
+    upi:"user@ybl"
+
+}
+let userTwo=userOne
+
+userTwo.email="hitesh@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+//dono mn value change hui
+//primitive stack mn jaty stack mn jub bi koi cheez ly gye to humy uski coppy hi mily gi
+//lekin heap ky andar koi cheeze ly gye to reference hi milta hai mean  orignal value mn change krty hain
