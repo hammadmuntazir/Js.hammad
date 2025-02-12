@@ -36,5 +36,5 @@ console.log((Math.floor(Math.random()*10)+1));//minimum value bi 1
 const min=10
 const max=20
 
-console.log(Math.floor(Math.random()*(max-min+1) +min))
+console.log(Math.floor(Math.random()*(max-min+1)) +min)
 //0 ko avoid krny ky liye +1 kia ..max-min range aye saat min add krdia
