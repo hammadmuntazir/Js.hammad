@@ -19,7 +19,7 @@ const bigNumber =34566643982n //n lgya to big int bn jaye ga
 
 //Reference Type(Non Primitive)
 
-//Array ,Objects,Functions non primitive ka datatype function aur function ka function objectjk
+//Array ,Objects,Functions non primitive ka datatype function aur function ka function object hota hai
 const heros =["Shaktiman","Spiderman","Superman"]
 let myObj =
 {name:"Hammad",
