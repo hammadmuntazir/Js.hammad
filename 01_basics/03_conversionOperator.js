@@ -2,13 +2,13 @@
 // // //let score = "33abc"//string
 // // //let score =null //0 result
 // // //let score =undefined//naN
-// // //let score=true//boolean varaible fale =0,true =1
+// // //let score=true//boolean varaible false =0,true =1
 // // console.log(typeof(score));
 
 // // let valueInNumber = Number(score)
 // // console.log(typeof(valueInNumber));
 // // console.log(valueInNumber)
-// // //value ki type number mnn convert to ho jaye gi mgr jub print krvaye gyein to aye ga not a number
+// // //value ki type number mein convert to ho jaye gi mgr jub print krvaye gyein to aye ga not a number
 // // //"33"=>33
 // // //"33abc"=>Nan
 // // //true=>1;false=>0
@@ -19,7 +19,7 @@
 // let booleanIsLoggedIn =Boolean(isLoggedIn)
 // console.log(booleanIsLoggedIn);
 
-// //1 =>true ; 0 =>false 
+// //1 => true ; 0 =>false 
 // //""=>false 
 // //"stringe with value" =>true
 
@@ -29,7 +29,7 @@
 // console.log(stringnumber)
 // //********************************* Operations ***********************/
 // let value = 3
-// let negValue = -value
+// let negValue =-value
 // //console.log(negValue);
 
 
@@ -43,7 +43,7 @@
 // let str1="Hello"
 // let str2 ="Hammad"
 
-// let str3=str1 +str2 //subtract nai hota just add hota hai
+// let str3= str1 +str2 //subtract nai hota just add hota hai
 // console.log(str3);
 
 // console.log("1"+2);//12
