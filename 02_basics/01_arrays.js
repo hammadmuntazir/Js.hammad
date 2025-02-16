@@ -4,7 +4,7 @@ const myArr =[0,1,2,3,4,5]
 /*()paranthesis
 []brackets =>arr in square
 {}braces,curly braces
-JavaScript array-copy operations create shallow copies.=>share same reference point heap wala example*/
+JavaScript array-copy operations create shallow copies=>share same reference point heap wala example*/
 //const myHeroes =["Spiderman","Batman"]
 
 //const myArr2=new Array(1,2,3,4)//square bracket nai likty vo automatically add krleta hai
@@ -22,7 +22,7 @@ myArr.shift()//shift will remove first one */
 // console.log(myArr.indexOf(9));// koi value na ho to answer -1 atta hai
 // console.log(myArr.indexOf(3));
 
-// const newArr =myArr.join//Adds all the elements of an array into a string, separated by the specified separator(comma here) string.
+//const newArr = myArr.join//Adds all the elements of an array into a string, separated by the specified separator(comma here) string.
 
 // console.log(myArr);
 // console.log(newArr);
