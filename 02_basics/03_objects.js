@@ -2,7 +2,7 @@
 myArray[0]=>accessing value in array is not through key
 while we use key to access value in object
 */
-//singleton =>apni trah ka aik hi object hai,dusri trah banaty hai to singleton nai hota usky multiple instances bn jaty hain
+//singleton => apni trah ka aik hi object hai,dusri trah banaty hai to singleton nai hota usky multiple instances bn jaty hain
 //literal ki trah declare krny  pr singleton nai bnta,constructorsy banay wala object always singleton
 
 //Object.create//is sy bi bana skty hai hum isi method ko constructor method ky through banana kehty hain                                                                                                                                                                                                                                                                                                                                       
