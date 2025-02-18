@@ -23,6 +23,7 @@ access bi assy krna hai=> console.log(objectname[symbolname])
 */
 const mySym = Symbol("Key1")
 
+
 const JsUser={
     name   : "Hammad",
     [mySym]:"myKey1",//khud bataye ga symbol hai
