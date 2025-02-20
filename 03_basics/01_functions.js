@@ -54,5 +54,78 @@ function loginUserMessage(username){
 }
 loginUserMessage("Hammad")//function execute hua usny value return krdi mgr print nai ki
 //console.log(loginUserMessage("Hammad"))
-console.log(loginUserMessage())//value hi pass nai ki to kia atta hai undefined, null nai atta,interview question
+//console.log(loginUserMessage())//value hi pass nai ki to kia atta hai undefined, null nai atta,interview question
 
+                  //
+/*hum kuch projects bnaye gyein jesy eccomerence website  un projects mn aksar shopping cart hoti hai un mn user
+add kiye  hi jata hai saman hai, humy nai pta abhi ktny numbers of item anny waly hain
+humy bs sub ki price add krni hai humy pta nai ktny arrugment anny waly hain to us hissab 
+sy parameter tyar krny hoty hain */ 
+//Function ky name assy dein dekh kr pta lg jaye kis cheese ka hai
+  
+/*function CalculateCartPrice(num1){
+      return num1
+} 
+console.log(CalculateCartPrice(2))
+//console.log(CalculateCartPrice(200,300,400))//problem yh aye gi sirf200 print hoga bcz aik parameter hai function mn
+
+*/
+
+/*           Rest Operator
+//to is problem ko solve krny ky liye aik rest operator hota hai
+...(3dots ko hi  rest  bola jata hai aur isi ko hi spread bola jata hai bs use case pr depend krta hai
+kub rest boly gye kub spread
+rest ka matlb hai jtna bi item mila hai vo bi khullay mn mil raha hai , is sub  ko aik bundle
+mn pack kro aur mujy dy do
+*/
+
+/*
+function CalculateCartPrice(...num1){
+    return num1
+}
+console.log(CalculateCartPrice(100,200,400))
+//rest operator ky 3 dots likhny ka impact yh hua hai ky mujy aik array mila hai
+//mujy jtna maal chyiea cart mn bhejiya ,mn unnsub ko atleast array mn daal paya hu
+//array mn loop lagana seekh kr mn un subko add kr hi du ga
+//idr mn ny smjha function mn multiple values kesy pass hoti hai
+//sara khel,...(3dots ka hai)
+*/
+                       //Aik aur case atta hai
+function calculateCartPrice(val1 ,val2 , ...num1){ 
+    return num1
+}
+//console.log(calculateCartPrice(100,200,400,2000))
+//idr num1 mn kia value jaye gi <interview question>
+//100,200 value 1 aur 2 ly gye baki rest jtni cheezain hai vo jaye gi "rest"ki waja sy array mn
+
+                       //
+const user={
+    username:"hammad",
+    price:199 //agr galti sy price ki jaga prices likh dia aur usy na likawya hua to price ki value ki jaga undefined ajaye ga answer
+}
+//is object ko function mn kesay pass kia jata hai aur kesay use kia jata hai
+function handleObject(anyobject){
+     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+     
+}
+//user ki jaga anyobject likhny sy sirf user wala object jo hum ny bnaya hai sirf usy nai balky koi sa
+// bi object pass krsky
+//handleObject(user)//1st method
+//call krty huye=>handleObject(compulsory object hi pass kry gyein)
+
+//2nd Method =>//
+handleObject({
+    username:"Ali",
+    price :399
+})
+//direct object bi pass krskty hain zaroori nai hai bana kr pass karin
+
+                        //isi trah array bi pass krskty hain
+const  myNewArray =[200,400,100,600]
+function returnSecondValue(getArray){
+    return getArray[1]
+}    
+//console.log(returnSecondValue(myNewArray));
+
+console.log(returnSecondValue([200,300,400,500]))
+//variable mn daal kr pass kro ya direct marzi hai
