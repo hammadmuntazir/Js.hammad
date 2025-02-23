@@ -129,3 +129,5 @@ function returnSecondValue(getArray){
 
 console.log(returnSecondValue([200,300,400,500]))
 //variable mn daal kr pass kro ya direct marzi hai
+
+
