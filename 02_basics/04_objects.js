@@ -1,12 +1,12 @@
-// //const tinderUser = new Object()      //=>singleton object as by constructor
-// //console.log(tinderUser)=>dekhy gyein to object hi aye ga singleton object
+//const tinderUser = new Object()      //=>singleton object as by constructor
+//console.log(tinderUser)//=>dekhy gyein to object hi aye ga singleton object
 // const tinderUser={}//not singleton obj
 
 // tinderUser.id="123abc"
 // tinderUser.name="Ali"
 // tinderUser.isLoggedIn=false
 
-// //console.log(tinderUser)
+//console.log(tinderUser)
 
 // const regularUser ={
 //     email:"some@gmail.com",
@@ -19,21 +19,23 @@
 // }
 // //console.log(regularUser.fullname.userfullname.firstname)
 // //dot laga kr hum object ky andar ky object ko access krlain gye
-// //agr full name exist hi na krta ho to hum yh sentex usrty hain agr yh value hai to kro
+// //agr full name exist hi na krta ho to hum yh sentex use krskty hain agr yh value hai to kro
 // //kafi baar jub Api sy response atta hai to humy yh sentex use krna parta hai agr yh value hai to kro wrna if else krna prta hai
 // //console.log(regularUser.fullname?.userfullname.firstname)
             
 //             //Method 1
-// const  obj1={1:"a",2:"b"}
-// const obj2={3:"c",4:"d"}
-// const obj4={5:"e",6:"f"}
-// /*const obj3={obj1,obj2}
-// console.log(obj3)
+
+ const obj1={1:"a",2:"b"}
+ const obj2={3:"c",4:"d"}
+ const obj4={5:"e",6:"f"}
+//const obj3={obj1,obj2}
+//console.log(obj3)
+//{ obj1: { '1': 'a', '2': 'b' }, obj2: { '3': 'c', '4': 'd' } }
 // //vohi array wala problem object mn object ajaye ga
-// */
+//
       
-//             //Method2(isy bi kum hi use krna hai)
-// const obj3 =Object.assign({},obj1,obj2,obj4)
+             //Method2(isy bi kum hi use krna hai)
+ const obj3 =Object.assign({},obj1,obj2,obj4)
 // //const obj3  =Object.assign(target,source)
 // //{}=>is target here after getting value from sources value is returned to target
 // //target ==obj3 =>sari values target mn jati hai ksi ko assign krlo zaida acha hai
@@ -47,7 +49,7 @@
 // const obj5={...obj1,...obj2}
 // //console.log(obj5);
 
-//               //concept we are going to use mostly when values came from database
+//  //concept we are going to use mostly when values came from database
 // //array of objects
 //               const users=[
 //     {
@@ -74,7 +76,7 @@
 // console.log(tinderUser);
 
 // console.log(Object.keys(tinderUser));
-// //Obejct.keys(kiski keys)
+// //Object.keys(kiski keys)
 // //datatype hai array ab hum chiea to is pr loop laga skty hain bohat si jaga pr kaam krskty hain
 // console.log(Object.values(tinderUser))
 
