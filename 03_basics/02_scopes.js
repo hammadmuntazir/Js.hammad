@@ -29,7 +29,7 @@ function one(){
 }
 //agr two ()ko call nai kry gye to kuch bi print nai hoga
 
-one()
+//one()
 //iski value sirf isi mn rahye gi
     
     //console.log(website)//line by line execution hoti hai
@@ -53,21 +53,22 @@ if(true){
 
 // +++++++++++++++++++++++++++interesting ++++++++++++++++//
 
-
+//addone ko function ky decalaration sy pahly likhny pr bi function ko koi problem nai hui
 console.log(addone(5)) 
 
 function addone(num){
-        return num +1
+        return num +1//jo bi value ly rahye us mn add one kr rahye hain
 }
 //addone(5)
 
 
 
-//isy kbhi kabar expression bola jata hai
+//isy 2nd function ko kbhi kabar expression bola jata hai
 //addTwo(5)  //agr isy upar ly kr aye gye to error aye ga isy function bnany ky baad variable mn hold bi krdia ha
 const addTwo =function(num){
     return num+2
 }
 addTwo(5)
 //hoisting =>function kesy declare kesy hoty hain
-//declaration sy pahly use nai krskty
+//agr variable mn function ko hold kia hua hai to
+// to declaration sy pahly use nai krskty
