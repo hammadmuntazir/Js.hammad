@@ -63,13 +63,14 @@ humy bs sub ki price add krni hai humy pta nai ktny arrugment anny waly hain to 
 sy parameter tyar krny hoty hain */ 
 //Function ky name assy dein dekh kr pta lg jaye kis cheese ka hai
   
-/*function CalculateCartPrice(num1){
+function CalculateCartPrice(num1){
       return num1
 } 
-console.log(CalculateCartPrice(2))
+/*console.log(CalculateCartPrice(2))
 //console.log(CalculateCartPrice(200,300,400))//problem yh aye gi sirf200 print hoga bcz aik parameter hai function mn
 
-*/
+//
+// */
 
 /*           Rest Operator
 //to is problem ko solve krny ky liye aik rest operator hota hai
@@ -79,17 +80,17 @@ rest ka matlb hai jtna bi item mila hai vo bi khullay mn mil raha hai , is sub  
 mn pack kro aur mujy dy do
 */
 
-/*
+
 function CalculateCartPrice(...num1){
     return num1
 }
-console.log(CalculateCartPrice(100,200,400))
+//console.log(CalculateCartPrice(100,200,400))
 //rest operator ky 3 dots likhny ka impact yh hua hai ky mujy aik array mila hai
 //mujy jtna maal chyiea cart mn bhejiya ,mn unnsub ko atleast array mn daal paya hu
 //array mn loop lagana seekh kr mn un subko add kr hi du ga
 //idr mn ny smjha function mn multiple values kesy pass hoti hai
 //sara khel,...(3dots ka hai)
-*/
+//*/
                        //Aik aur case atta hai
 function calculateCartPrice(val1 ,val2 , ...num1){ 
     return num1
