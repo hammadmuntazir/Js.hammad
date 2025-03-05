@@ -39,7 +39,7 @@ const user={
 
    //basic syntax of arrow function 
    //()=>{}
-   //const addTwo=()=>{}//variable mein store krskty hain ,neecay parameter lu ga
+   //const addTwo=()=>{}//variable mein store krskty hain ,neechay parameter lu ga
 // const addTwo=(num1,num2)=>{
 //     return num1+num2
 // }
@@ -60,3 +60,6 @@ console.log(addTwo(3,4))
 //const myArray =[2,5,3,7,8]
 //myArray.forEach(function(){})
 //myArray.forEach(()=>{})
+
+    //this alone global object ,event mein this refer to element which it recieve
+//arrow function automatically apny pahly waly lexical parent sy ly leta
