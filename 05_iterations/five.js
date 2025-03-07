@@ -1,4 +1,6 @@
- const coding=["js","ruby","java","python","cpp"]
+   //forEach is method to create loop
+
+const coding=["js","ruby","java","python","cpp"]
 // //call back function mean mujy function dy do mujy kia krna hai
 // //call back function ka name nai hota
 // coding.forEach(function (val){
