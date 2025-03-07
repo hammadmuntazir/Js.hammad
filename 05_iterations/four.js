@@ -1,3 +1,4 @@
+     //for in loops over Object keys
 const myObject={
     js:"Javascript",
     cpp:"C++",
