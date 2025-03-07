@@ -1,4 +1,4 @@
-//for of
+              //for of loops over object values
 //['',""]
 //[{},{},{}]
 const arr=[1,2,3,4,5]
