@@ -17,7 +17,7 @@ for(const greet of greetings){
         continue
 }
 
-   //Maps=>object holds key-value pair
+    //Maps=>object holds key-value pair
 //map apna ap mein object hai//map remember orignal insertion order of key
 //object order ko yaad nai rakhty
 const map =new Map()
