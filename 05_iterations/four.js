@@ -32,5 +32,8 @@ for(const key in programming){
 // for(const key in map ){
 //   console.log(key);
 // }
-//map is not ittratable agr koi cheeze ittritable na ho to usy assy loop mein nai likha jaskta
+        //for in Does not Work Directly with Maps(but .entries() workaround exists)
+//For in normally work over enumerable property names (keys)of an object
+//Buts Maps are not traditional object so,for in does not work
+//directly
 
