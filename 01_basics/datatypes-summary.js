@@ -52,6 +52,6 @@ userTwo.email="hitesh@google.com"
 
 console.log(userOne.email)
 console.log(userTwo.email)
-//dono mn value change hui
+//dono mein value change hui
 //primitive stack mn jaty stack mn jub bi koi cheez ly gye to humy uski coppy hi mily gi
 //lekin heap ky andar koi cheeze ly gye to reference hi milta hai mean  orignal value mn change krty hain
