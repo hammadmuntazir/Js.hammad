@@ -3,7 +3,8 @@
 //()sy function ka aik block bana do
 (function chai(){
     //namedIFFE
-    console.log(`DB CONNECTED`);
+    console.log(`DB CONNECTED`);36
+    
 })();
 //first parenthesis() jis mein jidr hum function ki defination likhny waly hain
 //()2nd wala execution
