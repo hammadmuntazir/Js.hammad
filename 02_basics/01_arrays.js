@@ -34,6 +34,7 @@ const newArr = myArr.join()
 //console.log(typeof(newArr));
                    //Slice,Splice
 //console.log("A",myArr);//A ky samny array ajaye ga
+
 //slice(startindex,endindex)
 const myn1 =myArr.slice(1,3)//index 1 sy start kro aur index 3  ko include nai krna
 
